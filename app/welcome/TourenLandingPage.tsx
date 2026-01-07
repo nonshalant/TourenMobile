@@ -64,32 +64,12 @@ export default function TourenLandingPage() {
       {/* CONTACT */}
       <section id="contact" className="px-6 py-24 max-w-5xl mx-auto">
         <h2 className="text-3xl font-bold mb-8">Get in Touch</h2>
-        <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <input
-            type="text"
-            placeholder="Full Name"
-            className="rounded-xl bg-gray-900 border border-gray-700 px-4 py-3 text-white focus:outline-none focus:border-red-600"
-          />
-          <input
-            type="email"
-            placeholder="Email Address"
-            className="rounded-xl bg-gray-900 border border-gray-700 px-4 py-3 text-white focus:outline-none focus:border-red-600"
-          />
-          <textarea
-            placeholder="How can we help you?"
-            rows={4}
-            className="md:col-span-2 rounded-xl bg-gray-900 border border-gray-700 px-4 py-3 text-white focus:outline-none focus:border-red-600"
-          />
-          <button
-            type="submit"
-            className="md:col-span-2 rounded-2xl bg-red-600 py-3 font-semibold hover:bg-red-700 transition"
-          >
-            Submit Inquiry
-          </button>
-        </form>
         <p className="mt-6 text-gray-500 text-sm">
-          Or email us directly at{" "}
-          <span className="text-gray-300">info@touren.com</span>
+          Email us directly at{" "}
+          <span className="text-gray-300">admin@tourenmobile.com</span>
+        </p>
+        <p className="mt-6 text-gray-500 text-sm">
+          Urgent? Call us at <span className="text-gray-300">1 646-352-2512</span>
         </p>
       </section>
 
